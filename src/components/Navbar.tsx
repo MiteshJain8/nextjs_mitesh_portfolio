@@ -69,17 +69,9 @@ const Navbar = () => {
                             </Link>
                         </li>
                     ))}
-                    <li className='py-6 text-4xl'>
-                        <a href='#Contact' onClick={closeNav}>
-                            Contact Me
-                        </a>
-                    </li>
                 </ul>
             </motion.div>
 
-            <motion.div
-            >
-            </motion.div>
         </div>
     );
 };
